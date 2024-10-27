@@ -100,6 +100,14 @@ line-height: 46.88px;
     padding: 0;
     margin: 0;
 }
+.figures-list-by2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px; /* Відстань між картками */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 .figure {
     width: 408.55px;
@@ -163,7 +171,16 @@ opacity: 0px;
     background-color: #2A347A;
 }
 
+p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 47px;
 
+color: #3D49B8;
+
+}
 
 
 .down-pointer {
