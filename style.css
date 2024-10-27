@@ -1,0 +1,178 @@
+body {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    background-color: #000000;
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+
+    width: 182px;
+    height: 139px;
+}
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0px;
+    
+
+}
+li.navi {
+    display: inline-block;
+}
+a {
+    margin: 10px 0;
+    padding: 20px 80px;
+}
+.active {
+    margin: 15px 0;
+    padding: 15px 80px;
+    background-color: #3D49B8;
+    border: 15px;
+    border-radius: 40px;
+}
+nav {
+
+    text-align: center;
+
+font-weight: 900;
+font-size: 20px;
+
+}
+
+
+/* Колір посилань коли: завжди */
+a:link {
+    color: #FFFFFF;
+}
+/* Колір посилань коли: відвідані */
+a:visited {
+    color: #dbdbdb;
+}
+/* Колір посилань коли: на них наведено */
+a:hover:not(.active) {
+    color: aliceblue;
+    background-color: #1f1f1f;
+}
+a.active:hover {
+    background-color: #2c3694;
+}
+/* Колір посилань коли: клікнуті */
+a:active {
+    color: #ebebeb;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+}
+h2 {
+    border-radius: 0px 70px 70px 0px;
+    background-color: #3D49B8;
+    padding: 20px 50px 20px 15px;
+    float: left;
+font-size: 40px;
+font-weight: 900;
+line-height: 46.88px;
+
+}
+
+
+
+
+.top-sells {
+    text-align: center;
+    padding: 50px;
+}
+
+.figures-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px; /* Відстань між картками */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.figure {
+    width: 408.55px;
+height: 526px;
+top: 1194px;
+left: 515.82px;
+gap: 0px;
+opacity: 0px;
+
+    background-image: linear-gradient(#151F755E, #3D49B866);
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.figure-image {
+    width: 283.07px;
+height: 344.48px;
+top: 1221.66px;
+left: 95.78px;
+gap: 0px;
+opacity: 0px;
+
+    height: auto;
+    border-radius: 10px;
+}
+
+.heart {
+    width: 45.17px;
+height: 46.41px;
+top: 1215.66px;
+left: 856.11px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.bbuy-button {
+    font-size: 24px;
+    font-family: Roboto;
+    background-color: #3D49B8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bbuy-button:hover {
+    background-color: #2A347A;
+}
+
+
+
+
+.down-pointer {
+    display: block;
+    margin: 1000px auto 0 auto;
+    width: 157px;
+    height: 173px;
+    top: 2386px;
+    left: 628px;
+    gap: 0px;
+    opacity: 0px;
+}
