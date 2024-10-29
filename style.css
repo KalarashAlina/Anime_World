@@ -155,6 +155,18 @@ opacity: 0px;
     font-weight: bold;
     margin: 10px 0;
 }
+.red-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: red;
+}
+.gray-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: rgb(69, 101, 128);
+}
 
 .bbuy-button {
     font-size: 24px;
